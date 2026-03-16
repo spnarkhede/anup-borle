@@ -194,7 +194,7 @@ export default function BlogPostPage({ params }: Props) {
               <div className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center">
                 <span className="text-white text-xs font-bold">AB</span>
               </div>
-              <span>Ashwini Borle</span>
+              <span>Anup Borle</span>
             </div>
           </div>
         </div>
@@ -232,15 +232,15 @@ export default function BlogPostPage({ params }: Props) {
               <span className="font-heading font-bold text-white text-xl">AB</span>
             </div>
             <div>
-              <p className="font-heading font-bold text-[#1f2937] dark:text-[#f8fafc] mb-1">Ashwini Borle</p>
+              <p className="font-heading font-bold text-[#1f2937] dark:text-[#f8fafc] mb-1">Anup Borle</p>
               <p className="text-sm text-[#6b7280] dark:text-[#94a3b8] mb-3">
-                Senior Technical Product Manager · 14+ years in global fintech, data platforms &amp; AI-driven automation
+                SRE Engineer – AVP · 12+ years in SRE, CI/CD automation, and DevOps engineering at Deutsche Bank, Credit Suisse, and Nokia
               </p>
               <Link
                 href="/about"
                 className="text-sm font-semibold text-[#0ea5a0] dark:text-[#14b8a6] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0ea5a0] rounded"
               >
-                About Ashwini →
+                About Anup →
               </Link>
             </div>
           </div>

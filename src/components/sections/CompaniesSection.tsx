@@ -1,48 +1,57 @@
 const companies = [
   {
-    name: 'Mastercard',
-    years: '2022–Present',
-    role: 'Senior TPM',
-    color: '#EB001B',
-    bg: '#FFF1F1',
-    darkBg: '#2D1515',
-    abbr: 'MC',
+    name: 'Deutsche Bank',
+    years: '2022 – Present',
+    role: 'SRE Engineer · AVP',
+    color: '#0018A8',
+    bg: '#EEF0FF',
+    darkBg: '#070B2E',
+    abbr: 'DB',
   },
   {
-    name: 'IBM',
-    years: '2020–2022',
-    role: 'Assoc. Consultant PM',
-    color: '#054ADA',
-    bg: '#EFF4FF',
-    darkBg: '#0D1B3E',
-    abbr: 'IBM',
+    name: 'Credit Suisse',
+    years: '2019 – 2022',
+    role: 'Site Reliability Engineer',
+    color: '#003155',
+    bg: '#E6EEF5',
+    darkBg: '#001020',
+    abbr: 'CS',
   },
   {
-    name: 'Tech Mahindra',
-    years: '2019–2020',
-    role: 'Senior SWE',
-    color: '#6B2286',
-    bg: '#F5EEFF',
-    darkBg: '#1E0D2E',
-    abbr: 'TM',
+    name: 'Nokia',
+    years: '2016 – 2019',
+    role: 'Solutions Specialist',
+    color: '#124191',
+    bg: '#EBF0FA',
+    darkBg: '#07132C',
+    abbr: 'NK',
   },
   {
     name: 'Vodafone',
-    years: '2017–2019',
-    role: 'Asst. Manager',
+    years: '2016',
+    role: 'Senior Software Engineer',
     color: '#E60000',
     bg: '#FFF0F0',
     darkBg: '#2D1010',
     abbr: 'VF',
   },
   {
-    name: 'Infosys',
-    years: '2014–2017',
-    role: 'Senior SWE',
-    color: '#007CC3',
-    bg: '#EBF6FF',
-    darkBg: '#0A1F30',
-    abbr: 'IN',
+    name: 'Cognizant',
+    years: '2014 – 2015',
+    role: 'Senior Software Engineer',
+    color: '#1A1A5B',
+    bg: '#EEEEFF',
+    darkBg: '#0A0A20',
+    abbr: 'CG',
+  },
+  {
+    name: 'IBM India',
+    years: '2012 – 2014',
+    role: 'Software Engineer',
+    color: '#1F70C1',
+    bg: '#EBF4FF',
+    darkBg: '#0A1F35',
+    abbr: 'IBM',
   },
 ];
 
@@ -73,7 +82,7 @@ export default function CompaniesSection() {
 
         {/* Company cards grid */}
         <div
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6"
           role="list"
           aria-label="Companies worked at"
         >

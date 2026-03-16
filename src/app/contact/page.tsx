@@ -5,7 +5,7 @@ import ContactForm from '@/components/sections/ContactForm';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Get in touch with Ashwini Borle — Senior Technical Product Manager. Available worldwide for consulting, advisory roles, speaking engagements, and select full-time opportunities.',
+    'Get in touch with Anup Borle — SRE Engineer AVP at Deutsche Bank. Available worldwide for SRE consulting, DevOps advisory roles, and select full-time opportunities.',
 };
 
 const contactInfo = [
@@ -16,8 +16,8 @@ const contactInfo = [
       </svg>
     ),
     label: 'Email',
-    value: 'contact@ashwiniborle.com',
-    href: 'mailto:contact@ashwiniborle.com',
+    value: 'anup.borle@yahoo.com',
+    href: 'mailto:anup.borle@yahoo.com',
   },
   {
     icon: (
@@ -26,8 +26,8 @@ const contactInfo = [
       </svg>
     ),
     label: 'Phone / WhatsApp',
-    value: '+91 XXXXX XXXXX',
-    href: 'tel:+91XXXXXXXXXX',
+    value: '+91 9960827111',
+    href: 'tel:+919960827111',
   },
   {
     icon: (
@@ -55,7 +55,7 @@ const contactInfo = [
 const socialLinks = [
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/ashwiniborle',
+    href: 'https://www.linkedin.com/in/anupborle-367410138',
     icon: (
       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -64,7 +64,7 @@ const socialLinks = [
   },
   {
     label: 'Email',
-    href: 'mailto:contact@ashwiniborle.com',
+    href: 'mailto:anup.borle@yahoo.com',
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -73,7 +73,7 @@ const socialLinks = [
   },
   {
     label: 'Phone',
-    href: 'tel:+91XXXXXXXXXX',
+    href: 'tel:+919960827111',
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -84,24 +84,24 @@ const socialLinks = [
 
 const faqs = [
   {
-    q: 'What types of consulting does Ashwini offer?',
-    a: 'Ashwini works with fintech, payments, and enterprise data platform companies on product strategy, roadmap planning, compliance architecture, data platform governance, and team structure. Engagements range from one-time strategy sprints to ongoing monthly advisory retainers.',
+    q: 'What types of SRE engagements does Anup take on?',
+    a: 'Anup works with financial institutions and enterprise technology companies on production reliability, CI/CD pipeline design, DevOps transformation, and observability platform implementation. Engagements range from one-time pipeline audits and architecture reviews to ongoing advisory retainers covering SRE practice build-out.',
   },
   {
-    q: 'What is Ashwini\'s preferred working style?',
-    a: 'Ashwini is fully flexible — Remote, Hybrid, or Onsite depending on the engagement. She is based in Pune, India and available for engagements across India, USA, EU, and worldwide. Time zones are not a barrier.',
+    q: 'How quickly can Anup improve deployment pipelines?',
+    a: 'Typical CI/CD improvement engagements show measurable gains within the first 4–8 weeks — automated build/test stages, reduced pipeline run times, and elimination of manual release steps. Full deployment frequency improvements of 2–3× are typically realised within 3–6 months depending on the current state of the pipeline.',
   },
   {
-    q: 'Is Ashwini available for speaking engagements?',
-    a: 'Yes — Ashwini speaks on data platform strategy, technical product management, PCI/PII compliance, and AI-driven automation in fintech. She speaks at conferences, company all-hands, and industry panels. Reach out with event details.',
+    q: 'Does Anup work with regulated industries?',
+    a: 'Yes — the majority of Anup\'s career has been in highly regulated environments. At Deutsche Bank and Credit Suisse, all SRE and DevOps work operated under strict financial services regulatory requirements including change management controls, audit trails, and ITIL-aligned incident management. This background makes Anup particularly well-suited to engagements where compliance and reliability must coexist.',
   },
   {
-    q: 'Does Ashwini offer PM mentorship?',
-    a: 'Ashwini offers a limited number of mentorship slots for early and mid-career Technical PMs and engineers transitioning to product management. Sessions are 1-hour calls, bi-weekly. Select "PM Mentorship" in the inquiry type.',
+    q: 'What is Anup\'s preferred working style?',
+    a: 'Anup is fully flexible — Remote, Hybrid, or Onsite depending on the engagement. He is based in Pune, India and available for engagements across India, USA, EU, and worldwide. On-call culture and async-first collaboration are second nature.',
   },
   {
     q: 'What is the typical response time?',
-    a: 'Ashwini responds to all serious inquiries within 1–2 business days. For urgent matters, please mention it in the subject line or reach out directly by phone/WhatsApp.',
+    a: 'Anup responds to all serious inquiries within 1–2 business days. For urgent matters, please mention it in the subject line or reach out directly by phone/WhatsApp.',
   },
 ];
 
@@ -124,7 +124,7 @@ export default function ContactPage() {
               <span className="text-gradient">great together</span>
             </h1>
             <p className="text-[#6b7280] dark:text-[#94a3b8] text-lg leading-relaxed mb-6">
-              Whether you&apos;re looking for a product consulting partner, advisory support, a technical PM for your team, or want to explore a full-time collaboration — Ashwini Borle would love to hear from you.
+              Whether you&apos;re looking for an SRE consulting partner, DevOps advisory support, a reliability engineer for your team, or want to explore a full-time collaboration — Anup Borle would love to hear from you.
             </p>
 
             {/* Working style + location chips */}
@@ -155,7 +155,7 @@ export default function ContactPage() {
               {/* Contact info card */}
               <div className="bg-white dark:bg-[#1e293b] rounded-2xl p-6 border border-[#e5e7eb] dark:border-[#334155]">
                 <h2 className="font-heading font-semibold text-lg text-[#1f2937] dark:text-[#f8fafc] mb-5">
-                  Contact Ashwini Borle
+                  Contact Anup Borle
                 </h2>
                 <ul className="space-y-4">
                   {contactInfo.map((info) => (
@@ -208,13 +208,13 @@ export default function ContactPage() {
               <div className="bg-gradient-to-br from-[#1a2b4a] to-[#0ea5a0] dark:from-[#1e293b] dark:to-[#0f172a] rounded-2xl p-6">
                 <div className="flex items-center gap-2 mb-3">
                   <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" aria-hidden="true" />
-                  <p className="font-semibold text-white text-sm">Ashwini is Available Now</p>
+                  <p className="font-semibold text-white text-sm">Anup is Available Now</p>
                 </div>
                 <p className="text-white/75 text-sm leading-relaxed mb-5">
-                  Open to consulting engagements, advisory roles, and select full-time opportunities globally.
+                  Open to SRE consulting, DevOps advisory roles, and select full-time opportunities globally.
                 </p>
                 <ul className="space-y-2">
-                  {['Product Consulting', 'Advisory Roles', 'Full-Time (select)', 'Speaking Engagements'].map((item) => (
+                  {['SRE Consulting', 'DevOps Advisory', 'Full-Time (select)', 'Architecture Reviews'].map((item) => (
                     <li key={item} className="flex items-center gap-2">
                       <svg className="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -263,7 +263,7 @@ export default function ContactPage() {
             <div className="lg:col-span-3 animate-on-scroll-right">
               <div className="bg-white dark:bg-[#1e293b] rounded-2xl p-8 border border-[#e5e7eb] dark:border-[#334155] shadow-sm">
                 <h2 className="font-heading font-bold text-2xl text-[#1f2937] dark:text-[#f8fafc] mb-2">
-                  Send Ashwini a Message
+                  Send Anup a Message
                 </h2>
                 <p className="text-[#6b7280] dark:text-[#94a3b8] text-sm mb-8">
                   All fields marked with <span className="text-red-500">*</span> are required.
@@ -304,7 +304,7 @@ export default function ContactPage() {
       <section className="py-16 bg-[#f9fafb] dark:bg-[#1e293b]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-on-scroll">
           <p className="text-[#6b7280] dark:text-[#94a3b8] text-lg mb-6">
-            Prefer to explore Ashwini&apos;s work before reaching out?
+            Prefer to explore Anup&apos;s work before reaching out?
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -7,9 +7,9 @@ import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import CTASection from '@/components/sections/CTASection';
 
 export const metadata: Metadata = {
-  title: 'Ashwini Borle — Senior Technical Product Manager',
+  title: 'Anup Borle — SRE Engineer · AVP @ Deutsche Bank',
   description:
-    'Senior Technical Product Manager with 14+ years in global fintech and data platforms. Specializing in data platform strategy, PCI/PII compliance, AI-driven automation and scalable enterprise systems.',
+    'SRE Engineer AVP at Deutsche Bank with 12+ years in site reliability engineering, CI/CD automation, and DevOps transformation. Specialist in Jenkins, Kubernetes, Splunk, Geneos monitoring, and production reliability.',
 };
 
 export default function HomePage() {

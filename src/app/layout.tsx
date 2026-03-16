@@ -22,37 +22,38 @@ import ScrollAnimationProvider from '@/components/providers/ScrollAnimationProvi
 
 export const metadata: Metadata = {
   title: {
-    default: 'Ashwini Borle — Senior Technical Product Manager',
-    template: '%s | Ashwini Borle',
+    default: 'Anup Borle — SRE Engineer · AVP @ Deutsche Bank',
+    template: '%s | Anup Borle',
   },
   description:
-    'Senior Technical Product Manager with 14+ years in global fintech, data platforms and AI-driven automation. Specializing in data platform strategy, PCI/PII compliance and scalable enterprise systems.',
+    'SRE Engineer AVP at Deutsche Bank with 12+ years in site reliability engineering, CI/CD automation, and DevOps transformation. Specialist in Jenkins, Kubernetes, Splunk, Geneos monitoring, and production reliability.',
   keywords: [
-    'Technical Product Manager',
-    'Senior TPM',
-    'Data Platform',
-    'Fintech',
-    'Mastercard',
-    'AI Automation',
-    'Ashwini Borle',
-    'Product Strategy',
-    'PCI Compliance',
+    'SRE Engineer',
+    'Site Reliability Engineering',
+    'DevOps',
+    'Deutsche Bank',
+    'CI/CD',
+    'Kubernetes',
+    'Jenkins',
+    'Anup Borle',
+    'Infrastructure Automation',
+    'Splunk',
   ],
-  authors: [{ name: 'Ashwini Borle' }],
-  creator: 'Ashwini Borle',
+  authors: [{ name: 'Anup Borle' }],
+  creator: 'Anup Borle',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'Ashwini Borle — Senior Technical Product Manager',
-    title: 'Ashwini Borle — Senior Technical Product Manager',
+    siteName: 'Anup Borle — SRE Engineer · AVP @ Deutsche Bank',
+    title: 'Anup Borle — SRE Engineer · AVP @ Deutsche Bank',
     description:
-      'Senior Technical Product Manager with 14+ years in global fintech, data platforms and AI-driven automation at Mastercard, IBM and more.',
+      'SRE Engineer AVP at Deutsche Bank with 12+ years in site reliability engineering, CI/CD automation, and DevOps transformation. Specialist in Jenkins, Kubernetes, Splunk, Geneos monitoring, and production reliability.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ashwini Borle — Senior Technical Product Manager',
+    title: 'Anup Borle — SRE Engineer · AVP @ Deutsche Bank',
     description:
-      'Senior Technical Product Manager with 14+ years in global fintech, data platforms and AI-driven automation.',
+      'SRE Engineer AVP at Deutsche Bank with 12+ years in site reliability engineering, CI/CD automation, and DevOps transformation.',
   },
   robots: {
     index: true,

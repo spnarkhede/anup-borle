@@ -65,19 +65,19 @@ export default function Navigation() {
             <Link
               href="/"
               className="flex items-center gap-3 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0ea5a0] rounded-lg"
-              aria-label="Alex Chen - Home"
+              aria-label="Anup Borle - Home"
             >
-              {/* PM Badge */}
+              {/* SRE Badge */}
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#1a2b4a] to-[#0ea5a0] dark:from-[#3b82f6] dark:to-[#14b8a6] flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform duration-200 shadow-sm">
-                <span className="text-white font-extrabold text-xs font-heading tracking-widest">PM</span>
+                <span className="text-white font-extrabold text-xs font-heading tracking-widest">SRE</span>
               </div>
               {/* Wordmark */}
               <div className="flex flex-col leading-none gap-0.5">
                 <span className="font-heading font-extrabold text-sm tracking-tight text-[#1f2937] dark:text-[#f8fafc] group-hover:text-[#0ea5a0] dark:group-hover:text-[#14b8a6] transition-colors duration-200 uppercase">
-                  Ashwini Borle
+                  Anup Borle
                 </span>
                 <span className="text-[9px] text-[#6b7280] dark:text-[#94a3b8] font-body tracking-widest uppercase">
-                  Senior Technical PM
+                  SRE Engineer · AVP
                 </span>
               </div>
             </Link>
@@ -190,7 +190,7 @@ export default function Navigation() {
               <span className="text-white font-bold text-xs font-heading">AB</span>
             </div>
             <span className="font-heading font-semibold text-sm text-[#1f2937] dark:text-[#f8fafc]">
-              Ashwini Borle
+              Anup Borle
             </span>
           </div>
           <button

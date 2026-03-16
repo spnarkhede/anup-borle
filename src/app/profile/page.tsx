@@ -8,7 +8,7 @@ import { tools } from '@/data/skills';
 export const metadata: Metadata = {
   title: 'Profile',
   description:
-    'Full professional profile of Ashwini Borle — case studies, skills breakdown, career timeline, and tools. 14+ years in global fintech, data platforms and AI-driven automation.',
+    'Full professional profile of Anup Borle — case studies, skills breakdown, career timeline, and tools. 12+ years in SRE, CI/CD automation, and DevOps engineering.',
 };
 
 export default function ProfilePage() {
@@ -24,7 +24,7 @@ export default function ProfilePage() {
             Work & Expertise
           </h1>
           <p className="text-[#6b7280] dark:text-[#94a3b8] text-lg max-w-2xl">
-            A detailed look at the case studies, skills, tools, and career history behind 14+ years of technical product management in global fintech and data platforms.
+            A detailed look at the case studies, skills, tools, and career history behind 12+ years of SRE and DevOps engineering across global financial institutions and enterprise infrastructure.
           </p>
         </div>
       </section>

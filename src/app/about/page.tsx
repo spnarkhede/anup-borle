@@ -5,29 +5,39 @@ import { timelineItems, certifications } from '@/data/timeline';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    "Learn about Ashwini Borle — Senior Technical Product Manager with 14+ years bridging business intent and engineering execution across Mastercard, IBM, Vodafone and more.",
+    "Learn about Anup Borle — SRE Engineer AVP at Deutsche Bank with 12+ years engineering production reliability across Deutsche Bank, Credit Suisse, Nokia, and IBM.",
 };
 
 const values = [
   {
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
-    title: 'Technical Depth',
+    title: 'Reliability First',
     description:
-      "I operate comfortably at the level of data pipelines, APIs, ETL systems and cloud architecture — not to write the code, but to translate technical constraints into product direction that engineering teams can execute confidently.",
+      "Production systems must be designed for failure from day one. I build SLO/SLI/SLA frameworks and error budget policies that set clear reliability targets and give teams the data they need to make informed trade-offs between features and stability.",
   },
   {
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
       </svg>
     ),
-    title: 'Compliance by Design',
+    title: 'Automate Everything',
     description:
-      "In regulated environments like payments and fintech, compliance is not a gate at the end of delivery — it is an architectural constraint from day one. I embed PCI, PII and governance requirements into discovery, not just UAT.",
+      "Toil is the enemy of reliability. Every manual, repetitive operational task is a candidate for elimination through automation. CI/CD pipelines, release orchestration, runbook automation — if it can be scripted once and run reliably forever, it should be.",
+  },
+  {
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+      </svg>
+    ),
+    title: 'Observe & Act',
+    description:
+      "You cannot fix what you cannot see. I build unified observability platforms using Splunk and Geneos that surface actionable signals before customers feel the impact. Proactive monitoring and intelligent alerting reduce MTTR and prevent repeat incidents.",
   },
   {
     icon: (
@@ -35,30 +45,20 @@ const values = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: 'Bias for Outcomes',
+    title: 'Shift Left',
     description:
-      "I measure success in production incidents reduced, release timelines accelerated, and operational overhead eliminated — not in features shipped or PRDs written. The platform is only as good as the business outcomes it enables.",
-  },
-  {
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
-      </svg>
-    ),
-    title: 'Bridge Builder',
-    description:
-      "My core value is translation — turning complex architecture into clear product direction for business, and turning business priorities into precise technical requirements for engineering. I live at that intersection by choice.",
+      "Quality and reliability must be embedded at the earliest stage of the pipeline, not bolted on at release. I champion shift-left practices — automated testing, security scanning, and chaos engineering integrated into CI/CD — so problems are caught before they reach production.",
   },
 ];
 
 const highlights = [
-  { label: 'Years of Experience', value: '14+' },
-  { label: 'Global Data Platforms', value: '5' },
-  { label: 'Production Incident Reduction', value: '40%' },
-  { label: 'Operational Efficiency Gain', value: '60%' },
+  { label: 'Years of Experience', value: '12+' },
+  { label: 'Companies', value: '6' },
+  { label: 'Uptime Achieved', value: '99.95%' },
+  { label: 'MTTR Reduction', value: '55%' },
 ];
 
-const companies = ['Mastercard', 'IBM', 'Tech Mahindra', 'Vodafone Idea', 'Infosys'];
+const companies = ['Deutsche Bank', 'Credit Suisse', 'Nokia', 'Vodafone', 'Cognizant', 'IBM India'];
 
 export default function AboutPage() {
   return (
@@ -77,26 +77,26 @@ export default function AboutPage() {
                 About Me
               </span>
               <h1 className="font-heading text-4xl md:text-5xl font-bold text-[#1f2937] dark:text-[#f8fafc] mb-6 leading-tight">
-                Closing the gap between{' '}
-                <span className="text-gradient">intent and execution</span>
+                Engineering reliability{' '}
+                <span className="text-gradient">at production scale</span>
               </h1>
               <div className="space-y-4 text-[#6b7280] dark:text-[#94a3b8] text-lg leading-relaxed">
                 <p>
-                  Most complex platforms fail not because of bad technology, but because the gap between business
-                  intent and engineering execution is never fully bridged. That is the gap I have spent 14+ years
-                  solving.
+                  12+ years engineering production reliability across Deutsche Bank, Credit Suisse, Nokia, and IBM.
+                  Specialist in CI/CD pipeline design, site reliability engineering, infrastructure automation, and
+                  observability platforms.
                 </p>
                 <p>
-                  I am a Senior Technical Product Manager based in Pune, India, currently at Mastercard where I
-                  own product strategy and delivery for 5 global data platforms powering payment ecosystems
-                  across multiple regulatory regions. My role sits at the intersection of engineering, data
-                  architecture, compliance and product strategy.
+                  I am an SRE Engineer – AVP based in Pune, India, currently at Deutsche Bank where I lead
+                  the SRE practice for critical banking applications. My focus is architecting and optimising
+                  CI/CD pipelines, building unified observability platforms, and driving 99.95%+ uptime across
+                  production environments.
                 </p>
                 <p>
-                  What differentiates my work is that I operate comfortably in both worlds — strategic product
-                  thinking and deep technical understanding of data pipelines, APIs, ETL systems and cloud
-                  data platforms. That combination allows me to translate complex architecture into clear
-                  product direction that engineering teams can execute and businesses can benefit from.
+                  What differentiates my approach is the combination of deep infrastructure expertise with a
+                  systems-thinking mindset — whether that means eliminating toil through automation, reducing
+                  MTTR through intelligent alerting, or implementing error budget policies that align reliability
+                  targets with business goals.
                 </p>
               </div>
 
@@ -175,10 +175,10 @@ export default function AboutPage() {
               Career Journey
             </span>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#1f2937] dark:text-[#f8fafc] mb-4">
-              14+ Years of Impact
+              12+ Years of Impact
             </h2>
             <p className="text-[#6b7280] dark:text-[#94a3b8] text-lg max-w-2xl mx-auto">
-              Ashwini Borle&apos;s professional journey across global organisations in fintech, data platforms and enterprise technology.
+              Anup Borle&apos;s professional journey across global organisations in banking, telecom, and enterprise infrastructure.
             </p>
             <div className="section-divider mt-6" />
           </div>
@@ -190,12 +190,13 @@ export default function AboutPage() {
             <div className="space-y-10">
               {timelineItems.map((item, i) => {
                 const companyColors: Record<string, string> = {
-                  'Mastercard': '#EB001B',
-                  'IBM': '#054ADA',
-                  'Tech Mahindra': '#6B2286',
-                  'Vodafone Idea Limited': '#E60000',
-                  'Infosys Public Services': '#007CC3',
-                  'Rashtrasant Tukadoji Maharaj Nagpur University': '#d4af37',
+                  'Deutsche Bank': '#0018A8',
+                  'Credit Suisse': '#E4003A',
+                  'Nokia': '#124191',
+                  'Vodafone': '#E60000',
+                  'Cognizant': '#1A4CA1',
+                  'IBM India': '#054ADA',
+                  'Bapurao Deshmukh College of Engineering': '#d4af37',
                 };
                 const color = companyColors[item.company] ?? '#0ea5a0';
                 const isEven = i % 2 === 0;
@@ -327,10 +328,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14 animate-on-scroll">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#1f2937] dark:text-[#f8fafc] mb-4">
-              What I believe about great platform work
+              What I believe about great reliability work
             </h2>
             <p className="text-[#6b7280] dark:text-[#94a3b8] text-lg max-w-2xl mx-auto">
-              These principles have guided 14+ years of product and platform delivery across global fintech.
+              These principles have guided 12+ years of SRE and DevOps engineering across global financial institutions.
             </p>
             <div className="section-divider mt-6" />
           </div>
@@ -360,12 +361,12 @@ export default function AboutPage() {
             My mission
           </h2>
           <blockquote className="text-xl md:text-2xl text-[#6b7280] dark:text-[#94a3b8] italic leading-relaxed border-l-4 border-[#0ea5a0] dark:border-[#14b8a6] pl-6 text-left">
-            &ldquo;To be the person who connects the dots between technology, product strategy and measurable
-            business outcomes. Complex platforms should not fail because of communication gaps — and
-            they do not have to, if someone in the room speaks both languages fluently.&rdquo;
+            &ldquo;Reliability is not an accident — it is the result of disciplined engineering, relentless
+            automation, and the courage to measure what matters. Every minute of downtime is a failure we
+            chose not to prevent. Every manual task is toil we chose not to eliminate.&rdquo;
           </blockquote>
           <p className="mt-6 font-semibold text-[#1f2937] dark:text-[#f8fafc] text-lg">
-            — Ashwini Borle
+            — Anup Borle
           </p>
         </div>
       </section>
@@ -374,10 +375,10 @@ export default function AboutPage() {
       <section className="py-16 bg-gradient-to-br from-[#1a2b4a] to-[#0ea5a0] dark:from-[#1e293b] dark:to-[#0f172a]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-on-scroll">
           <h2 className="font-heading text-3xl font-bold text-white mb-4">
-            Building data platforms or fintech infrastructure?
+            Building reliable systems or improving your CI/CD pipeline?
           </h2>
           <p className="text-white/80 text-lg mb-8">
-            I am available for consulting engagements, advisory roles, and select full-time opportunities.
+            I am available for SRE consulting, DevOps advisory roles, and select full-time opportunities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

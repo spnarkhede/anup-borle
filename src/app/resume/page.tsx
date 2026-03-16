@@ -4,92 +4,92 @@ import PrintButton from '@/components/ui/PrintButton';
 export const metadata = {
   title: 'Resume',
   description:
-    'Professional resume of Ashwini Borle — Senior Technical Product Manager with 14+ years in global fintech and data platforms.',
+    'Professional resume of Anup Borle — SRE Engineer AVP at Deutsche Bank with 12+ years in site reliability engineering, CI/CD automation, and DevOps transformation.',
 };
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
 const competencies = [
-  'Product Strategy & Roadmapping',
-  'Requirements Engineering (BRD/FRD)',
-  'Data Platform Product Ownership',
-  'Agile / Scrum Delivery',
-  'Compliance (PCI / PII / Regulatory)',
-  'Stakeholder Management',
-  'AI-Driven Automation',
-  'Cross-functional Leadership',
-  'Data Pipelines & ETL Systems',
-  'API & Integration Design',
-  'Cloud Platforms (Azure/AWS)',
-  'Legacy System Modernization',
-  'SQL & Data Analysis',
-  'BI & Reporting Analytics',
-  'Data Governance & Quality',
-  'AI-Powered Product Discovery',
+  'CI/CD Pipeline Design',
+  'Site Reliability Engineering',
+  'Infrastructure Automation',
+  'Jenkins & TeamCity',
+  'Kubernetes & Docker',
+  'Splunk & Geneos',
+  'Release Management',
+  'Incident Management',
+  'ITIL 4 Framework',
+  'Linux Administration',
+  'Azure Cloud',
+  'Shell Scripting & Bash',
 ];
 
 const experience = [
   {
-    company: 'Mastercard',
-    title: 'Senior Technical Product Manager',
-    period: '2022 – Present',
+    company: 'Deutsche Bank',
+    title: 'SRE Engineer – AVP',
+    period: 'Mar 2025 – Present',
     location: 'Pune, India',
     highlights: [
-      'Owned roadmap for 5 global data platforms ensuring PCI/PII compliance, reducing clarification cycles by 30% and operational overhead by 20%.',
-      'Reduced production incidents by 40% and accelerated partner onboarding by 35% by modernising a legacy payment platform.',
-      'Boosted feature adoption by 45% and increased transaction volume by 18% within two quarters.',
-      'Automated SPARK-based data pipelines eliminating manual intervention and accelerating release velocity by 40%.',
+      'Leading SRE practice for critical banking applications serving global markets.',
+      'Architecting and optimising CI/CD pipelines using Jenkins and TeamCity, driving 3× improvement in deployment frequency.',
+      'Maintaining 99.95%+ production uptime through proactive monitoring, SLO/SLI frameworks, and error budget policies.',
+      'Establishing SRE culture across development teams through runbook standardisation and chaos engineering practices.',
     ],
   },
   {
-    company: 'IBM',
-    title: 'Associate Consultant – Product Manager',
-    period: '2020 – 2022',
+    company: 'Deutsche Bank',
+    title: 'SRE Engineer Associate',
+    period: 'May 2022 – Mar 2025',
     location: 'Pune, India',
     highlights: [
-      'Reduced job failures by 60% and improved batch processing time by 25%.',
-      'Achieved 40% reduction in manual effort and improved data accuracy to 99.5%.',
-      'Drove BI analytics improvements delivering 25% better project delivery efficiency for GM CDAO.',
+      'Built enterprise monitoring platform using Splunk and Geneos, achieving unified observability across production systems.',
+      'Reduced MTTR by 55% through intelligent alerting, automated remediation, and structured incident response.',
+      'Automated release pipelines eliminating 80% of manual deployment steps and reducing release errors significantly.',
+      'Implemented Kubernetes-based container orchestration for production workloads, improving resource utilisation and deployment reliability.',
     ],
   },
   {
-    company: 'Tech Mahindra',
+    company: 'Credit Suisse',
+    title: 'Site Reliability Engineer',
+    period: 'Feb 2019 – May 2022',
+    location: 'Pune, India',
+    highlights: [
+      'Introduced SRE practices and DevOps transformation across development teams, establishing error budget and SLO/SLI frameworks.',
+      'Containerised applications using Docker and deployed on Kubernetes, enabling consistent and reproducible deployments.',
+      'Increased deployment frequency by 200% while reducing production downtime by 60% through pipeline automation.',
+      'Defined and implemented ITIL-aligned incident management processes reducing escalation rate by 45%.',
+    ],
+  },
+  {
+    company: 'Nokia',
+    title: 'Solutions Specialist',
+    period: 'Oct 2016 – Feb 2019',
+    location: 'Pune, India',
+    highlights: [
+      'Managed release automation and operational excellence initiatives across telecom infrastructure platforms.',
+      'Implemented ITIL-aligned change management processes reducing change-related incidents by 50%.',
+      'Reduced release cycle time by 60% through pipeline automation and standardised deployment procedures.',
+      'Standardised runbooks reducing manual release errors by 75% and improving on-call efficiency.',
+    ],
+  },
+  {
+    company: 'Vodafone',
     title: 'Senior Software Engineer',
-    period: '2019 – 2020',
+    period: 'Jan 2016 – Oct 2016',
     location: 'Pune, India',
     highlights: [
-      'Enhanced application performance by 35% and reduced defects by 45%.',
-      'Cut release cycles from 4 weeks to 2 weeks.',
-    ],
-  },
-  {
-    company: 'Vodafone Idea Limited',
-    title: 'Assistant Manager – Production Support',
-    period: '2017 – 2019',
-    location: 'Pune, India',
-    highlights: [
-      'Maintained 99.9% system uptime with zero order loss.',
-      'Reduced manual effort by 50% through process automation.',
-    ],
-  },
-  {
-    company: 'Infosys Public Services',
-    title: 'Senior Software Engineer',
-    period: '2014 – 2017',
-    location: 'Pune, India',
-    highlights: [
-      'Reduced average resolution time by 30% and escalation rate by 40%.',
-      'Improved customer satisfaction scores by 20%.',
+      'Production support and automation for critical telecom infrastructure systems.',
+      'Implemented monitoring and alerting frameworks for high-availability services.',
     ],
   },
 ];
 
 const certifications = [
-  { name: 'ITIL Foundation Level', issuer: 'AXELOS', year: '2020' },
-  { name: 'Product Management First Steps', issuer: 'LinkedIn Learning', year: '2021' },
-  { name: 'Microsoft Azure Data Engineer', issuer: 'Microsoft', year: '2022' },
-  { name: 'Containers & Kubernetes Essentials', issuer: 'IBM', year: '2022' },
-  { name: 'Technical Product Management', issuer: 'Product School', year: '2023' },
+  { name: 'ITIL 4 Foundation', issuer: 'PeopleCert', year: '2021' },
+  { name: 'Azure Fundamentals (AZ-900)', issuer: 'Microsoft', year: '2020' },
+  { name: 'DevOps Engineer', issuer: 'Edureka', year: '2020' },
+  { name: 'ITIL V3 Foundation', issuer: 'PeopleCert', year: '2015' },
 ];
 
 // ─── Section divider ─────────────────────────────────────────────────────────
@@ -145,42 +145,49 @@ export default function ResumePage() {
             {/* Left: name + contact */}
             <div className="flex-1">
               <h1 className="font-heading font-bold text-3xl md:text-4xl text-white print:text-[#1a2b4a] leading-tight mb-1">
-                Ashwini Borle
+                Anup Borle
               </h1>
               <p className="font-heading font-semibold text-lg text-[#0ea5a0] print:text-[#0ea5a0] mb-2">
-                Senior Technical Product Manager
+                SRE Engineer – AVP
               </p>
               <p className="text-sm text-white/80 print:text-[#6b7280] mb-5 max-w-xl leading-relaxed">
-                Bridging business intent and engineering execution across global fintech and data platforms
+                Engineering production reliability, CI/CD automation, and observability platforms at Deutsche Bank
               </p>
 
               {/* Contact row */}
               <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/90 print:text-[#374151]">
                 <a
-                  href="mailto:contact@ashwiniborle.com"
+                  href="mailto:anup.borle@yahoo.com"
                   className="flex items-center gap-1.5 hover:text-[#0ea5a0] transition-colors"
                 >
                   <span aria-hidden="true">📧</span>
-                  <span>contact@ashwiniborle.com</span>
+                  <span>anup.borle@yahoo.com</span>
+                </a>
+                <a
+                  href="tel:+919960827111"
+                  className="flex items-center gap-1.5 hover:text-[#0ea5a0] transition-colors"
+                >
+                  <span aria-hidden="true">📞</span>
+                  <span>+91 9960827111</span>
                 </a>
                 <span className="flex items-center gap-1.5">
                   <span aria-hidden="true">📍</span>
                   <span>Pune, India (Worldwide Available)</span>
                 </span>
                 <a
-                  href="https://linkedin.com/in/ashwiniborle"
+                  href="https://linkedin.com/in/anupborle-367410138"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1.5 hover:text-[#0ea5a0] transition-colors"
                 >
                   <span aria-hidden="true">🔗</span>
-                  <span>linkedin.com/in/ashwiniborle</span>
+                  <span>linkedin.com/in/anupborle-367410138</span>
                 </a>
               </div>
 
               {/* Availability */}
               <p className="mt-3 text-xs font-medium text-white/70 print:text-[#6b7280]">
-                Available: Remote / Hybrid / Onsite &nbsp;·&nbsp; India / USA / EU / Worldwide
+                Available: Remote / Hybrid / Open to Relocation
               </p>
             </div>
 
@@ -199,12 +206,11 @@ export default function ResumePage() {
             <span id="summary-heading">Professional Summary</span>
           </SectionHeading>
           <p className="text-sm text-[#374151] leading-relaxed">
-            Senior Technical Product Manager with 14+ years of experience leading data platform
-            strategy, product delivery and cross-functional teams at Mastercard, IBM, Tech Mahindra,
-            Vodafone and Infosys. Specialist in translating complex engineering architecture into clear
-            product direction, embedding PCI/PII compliance from discovery, and driving measurable
-            outcomes — 40% production incident reduction, 60% operational efficiency improvement, 35%
-            faster partner onboarding.
+            Results-driven SRE Engineer with 12+ years of experience building reliable production systems,
+            automating CI/CD pipelines, and implementing observability platforms across global financial
+            institutions including Deutsche Bank and Credit Suisse. Deep expertise in Jenkins/TeamCity,
+            Kubernetes, Docker, Splunk, Geneos, and ITIL service management. Proven track record of
+            achieving 99.95%+ uptime, reducing MTTR by 55%, and accelerating deployment frequency by 3×.
           </p>
         </section>
 
@@ -302,16 +308,16 @@ export default function ResumePage() {
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1">
             <div>
               <h3 className="font-heading font-bold text-base text-[#1a2b4a]">
-                BE – Electrical, Electronics &amp; Communications Engineering
+                BE – Mechanical Engineering
               </h3>
               <p className="text-sm font-medium text-[#0ea5a0]">
-                Rashtrasant Tukadoji Maharaj Nagpur University
+                Bapurao Deshmukh College of Engineering, Wardha
               </p>
-              <p className="text-xs text-[#6b7280] mt-0.5">Nagpur, India</p>
+              <p className="text-xs text-[#6b7280] mt-0.5">Wardha, India</p>
             </div>
             <div className="flex-shrink-0">
               <span className="inline-block px-2.5 py-1 text-xs font-semibold bg-[#eff6ff] text-[#1d4ed8] border border-[#bfdbfe] rounded-lg print:bg-transparent print:border-[#d1d5db] print:text-[#374151]">
-                2008 – 2012
+                2004 – 2011
               </span>
             </div>
           </div>
@@ -358,8 +364,8 @@ export default function ResumePage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { label: 'Location', value: 'India (Pune) · Worldwide Available' },
-              { label: 'Engagement', value: 'Remote / Hybrid / Onsite' },
-              { label: 'Open to', value: 'Consulting · Advisory · Full-Time' },
+              { label: 'Engagement', value: 'Remote / Hybrid / Open to Relocation' },
+              { label: 'Open to', value: 'SRE Consulting · Advisory · Full-Time' },
             ].map((item) => (
               <div
                 key={item.label}
@@ -376,7 +382,7 @@ export default function ResumePage() {
 
         {/* Print footer */}
         <div className="hidden print:block mt-8 pt-4 border-t border-[#e5e7eb] text-center text-xs text-[#9ca3af]">
-          contact@ashwiniborle.com &nbsp;·&nbsp; linkedin.com/in/ashwiniborle &nbsp;·&nbsp; Pune, India
+          anup.borle@yahoo.com &nbsp;·&nbsp; linkedin.com/in/anupborle-367410138 &nbsp;·&nbsp; Pune, India
         </div>
 
       </div>

@@ -34,7 +34,7 @@ export default function HeroSection() {
 
             {/* Name */}
             <h1 className="font-heading font-bold text-5xl sm:text-6xl lg:text-7xl text-[#1f2937] dark:text-[#f8fafc] leading-[1.05] mb-4">
-              Ashwini{' '}
+              Anup{' '}
               <span className="relative inline-block">
                 <span className="relative z-10 bg-gradient-to-r from-[#0ea5a0] to-[#1a2b4a] dark:from-[#14b8a6] dark:to-[#3b82f6] bg-clip-text text-transparent">
                   Borle
@@ -48,13 +48,12 @@ export default function HeroSection() {
 
             {/* Title */}
             <p className="font-heading font-semibold text-xl sm:text-2xl text-[#1a2b4a] dark:text-[#3b82f6] mb-4">
-              Senior Technical Product Manager
+              SRE Engineer – AVP
             </p>
 
             {/* Tagline */}
             <p className="text-lg sm:text-xl text-[#6b7280] dark:text-[#94a3b8] leading-relaxed mb-8 max-w-lg">
-              Bridging the gap between business intent and engineering execution — turning complex data
-              platforms and fintech infrastructure into products that are scalable, secure and valuable.
+              Engineering reliability into production systems — from CI/CD pipeline automation to zero-downtime deployments and proactive observability at Deutsche Bank.
             </p>
 
             {/* CTA Buttons */}
@@ -83,7 +82,7 @@ export default function HeroSection() {
             {/* Social proof */}
             <div className="flex flex-wrap items-center gap-6 text-sm text-[#6b7280] dark:text-[#94a3b8]">
               <div className="flex -space-x-2">
-                {['BC', 'KR', 'PG', 'VC'].map((initials, i) => (
+                {['ST', 'SR', 'ZR', 'GN'].map((initials, i) => (
                   <div
                     key={i}
                     className="w-8 h-8 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white dark:border-[#0f172a] shadow-sm"
@@ -95,7 +94,7 @@ export default function HeroSection() {
                 ))}
               </div>
               <span>
-                Trusted by teams at <strong className="text-[#1f2937] dark:text-[#f8fafc]">Mastercard, IBM & more</strong>
+                Trusted by teams at <strong className="text-[#1f2937] dark:text-[#f8fafc]">Deutsche Bank, Credit Suisse & more</strong>
               </span>
             </div>
           </div>
@@ -111,8 +110,8 @@ export default function HeroSection() {
                     <span className="text-white font-bold text-xl font-heading">AB</span>
                   </div>
                   <div>
-                    <p className="font-heading font-bold text-[#1f2937] dark:text-[#f8fafc]">Ashwini Borle</p>
-                    <p className="text-sm text-[#6b7280] dark:text-[#94a3b8]">Senior TPM @ Mastercard</p>
+                    <p className="font-heading font-bold text-[#1f2937] dark:text-[#f8fafc]">Anup Borle</p>
+                    <p className="text-sm text-[#6b7280] dark:text-[#94a3b8]">SRE Engineer · AVP @ Deutsche Bank</p>
                     <div className="flex items-center gap-1 mt-1">
                       {[1, 2, 3, 4, 5].map((s) => (
                         <svg key={s} className="w-3 h-3 text-[#d4af37]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -126,10 +125,10 @@ export default function HeroSection() {
                 {/* Stats mini grid */}
                 <div className="grid grid-cols-2 gap-3 mb-6">
                   {[
-                    { label: 'Years Experience', value: '14+' },
-                    { label: 'Global Platforms', value: '5' },
-                    { label: 'Incident Reduction', value: '40%' },
-                    { label: 'Efficiency Gain', value: '60%' },
+                    { label: 'Years Experience', value: '12+' },
+                    { label: 'Organisations', value: '6+' },
+                    { label: 'Uptime Delivered', value: '99.95%' },
+                    { label: 'Faster Deploys', value: '3×' },
                   ].map((stat) => (
                     <div
                       key={stat.label}
@@ -144,9 +143,9 @@ export default function HeroSection() {
                 {/* Skill bars mini */}
                 <div className="space-y-2.5">
                   {[
-                    { name: 'Data Platform Strategy', pct: 95 },
-                    { name: 'Compliance & Governance', pct: 90 },
-                    { name: 'Cross-functional Leadership', pct: 92 },
+                    { name: 'CI/CD Pipeline Design', pct: 95 },
+                    { name: 'Site Reliability Engineering', pct: 93 },
+                    { name: 'Infrastructure Automation', pct: 90 },
                   ].map((skill) => (
                     <div key={skill.name}>
                       <div className="flex justify-between items-center mb-1">
@@ -179,8 +178,8 @@ export default function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-[#1f2937] dark:text-[#f8fafc]">Mastercard</p>
-                  <p className="text-xs text-[#6b7280] dark:text-[#94a3b8]">Senior TPM</p>
+                  <p className="text-xs font-bold text-[#1f2937] dark:text-[#f8fafc]">Deutsche Bank</p>
+                  <p className="text-xs text-[#6b7280] dark:text-[#94a3b8]">SRE Engineer · AVP</p>
                 </div>
               </div>
 
