@@ -5,6 +5,7 @@ const footerLinks = {
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
     { href: '/profile', label: 'Profile' },
+    { href: '/resume', label: 'Resume' },
     { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Contact' },
   ],
@@ -64,8 +65,8 @@ export default function Footer() {
               className="flex items-center gap-3 group w-fit focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0ea5a0] rounded-lg"
               aria-label="Alex Chen - Home"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#1a2b4a] to-[#0ea5a0] dark:from-[#3b82f6] dark:to-[#14b8a6] flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
-                <span className="text-white font-bold text-sm font-heading">AB</span>
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#1a2b4a] to-[#0ea5a0] dark:from-[#3b82f6] dark:to-[#14b8a6] flex items-center justify-center group-hover:scale-105 transition-transform duration-200 shadow-sm">
+                <span className="text-white font-extrabold text-xs font-heading tracking-widest">PM</span>
               </div>
               <div>
                 <p className="font-heading font-bold text-[#1f2937] dark:text-[#f8fafc] group-hover:text-[#0ea5a0] dark:group-hover:text-[#14b8a6] transition-colors text-base">

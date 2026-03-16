@@ -192,9 +192,9 @@ export default function BlogPostPage({ params }: Props) {
             </time>
             <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center">
-                <span className="text-white text-xs font-bold">AC</span>
+                <span className="text-white text-xs font-bold">AB</span>
               </div>
-              <span>Alex Chen</span>
+              <span>Ashwini Borle</span>
             </div>
           </div>
         </div>
@@ -229,18 +229,18 @@ export default function BlogPostPage({ params }: Props) {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-start gap-5 p-6 bg-white dark:bg-[#0f172a] rounded-2xl border border-[#e5e7eb] dark:border-[#334155]">
             <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#1a2b4a] to-[#0ea5a0] dark:from-[#3b82f6] dark:to-[#14b8a6] flex items-center justify-center flex-shrink-0">
-              <span className="font-heading font-bold text-white text-xl">AC</span>
+              <span className="font-heading font-bold text-white text-xl">AB</span>
             </div>
             <div>
-              <p className="font-heading font-bold text-[#1f2937] dark:text-[#f8fafc] mb-1">Alex Chen</p>
+              <p className="font-heading font-bold text-[#1f2937] dark:text-[#f8fafc] mb-1">Ashwini Borle</p>
               <p className="text-sm text-[#6b7280] dark:text-[#94a3b8] mb-3">
-                Senior Product Manager · 8+ years building B2B SaaS, digital health &amp; fintech products
+                Senior Technical Product Manager · 14+ years in global fintech, data platforms &amp; AI-driven automation
               </p>
               <Link
                 href="/about"
                 className="text-sm font-semibold text-[#0ea5a0] dark:text-[#14b8a6] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0ea5a0] rounded"
               >
-                About Alex →
+                About Ashwini →
               </Link>
             </div>
           </div>

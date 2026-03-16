@@ -28,6 +28,17 @@ export const skills: Skill[] = [
   { id: '13', name: 'AI-Driven Automation',                 level: 82, category: 'Strategy' },
   { id: '14', name: 'Legacy System Modernization',          level: 88, category: 'Strategy' },
   { id: '15', name: 'Data Governance & Quality',            level: 87, category: 'Technical' },
+  // PM with AI
+  { id: '16', name: 'AI-Powered Product Discovery',        level: 85, category: 'PM with AI' },
+  { id: '17', name: 'AI-Assisted Requirements Analysis',   level: 83, category: 'PM with AI' },
+  { id: '18', name: 'LLM Integration & Roadmapping',       level: 80, category: 'PM with AI' },
+  { id: '19', name: 'AI Workflow Automation (Fireflies / Otter / Jasper)', level: 88, category: 'PM with AI' },
+  { id: '20', name: 'Prompt Engineering for PM Use Cases', level: 78, category: 'PM with AI' },
+  // Emerging / Futuristic
+  { id: '21', name: 'Agentic AI Platform Design',          level: 75, category: 'Emerging' },
+  { id: '22', name: 'Generative AI Product Strategy',      level: 78, category: 'Emerging' },
+  { id: '23', name: 'Data Mesh Architecture PM',           level: 80, category: 'Emerging' },
+  { id: '24', name: 'Real-Time Data Streaming (Kafka)',     level: 76, category: 'Emerging' },
 ];
 
 export const tools: Tool[] = [

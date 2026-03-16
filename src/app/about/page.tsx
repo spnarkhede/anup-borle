@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { timelineItems, certifications } from '@/data/timeline';
 
 export const metadata: Metadata = {
   title: 'About',
@@ -166,6 +167,161 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Career Timeline */}
+      <section className="py-20 md:py-28 bg-white dark:bg-[#0f172a]" id="timeline">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16 animate-on-scroll">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0ea5a0]/10 dark:bg-[#14b8a6]/10 text-[#0ea5a0] dark:text-[#14b8a6] text-xs font-semibold tracking-widest uppercase mb-4">
+              Career Journey
+            </span>
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#1f2937] dark:text-[#f8fafc] mb-4">
+              14+ Years of Impact
+            </h2>
+            <p className="text-[#6b7280] dark:text-[#94a3b8] text-lg max-w-2xl mx-auto">
+              Ashwini Borle&apos;s professional journey across global organisations in fintech, data platforms and enterprise technology.
+            </p>
+            <div className="section-divider mt-6" />
+          </div>
+
+          <div className="relative">
+            {/* Spine */}
+            <div className="absolute left-5 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-[#1a2b4a] via-[#0ea5a0] to-[#d4af37] opacity-25" aria-hidden="true" />
+
+            <div className="space-y-10">
+              {timelineItems.map((item, i) => {
+                const companyColors: Record<string, string> = {
+                  'Mastercard': '#EB001B',
+                  'IBM': '#054ADA',
+                  'Tech Mahindra': '#6B2286',
+                  'Vodafone Idea Limited': '#E60000',
+                  'Infosys Public Services': '#007CC3',
+                  'Rashtrasant Tukadoji Maharaj Nagpur University': '#d4af37',
+                };
+                const color = companyColors[item.company] ?? '#0ea5a0';
+                const isEven = i % 2 === 0;
+
+                return (
+                  <div key={item.id} className={`relative pl-14 md:pl-0 animate-on-scroll delay-${Math.min((i + 1) * 100, 400)}`}>
+                    {/* Dot */}
+                    <div
+                      className="absolute left-3 md:left-1/2 top-6 w-4 h-4 rounded-full border-[3px] border-white dark:border-[#0f172a] shadow z-10 md:-translate-x-1/2"
+                      style={{ backgroundColor: color }}
+                      aria-hidden="true"
+                    />
+
+                    {/* Card — on desktop: even → left half, odd → right half */}
+                    <div className={`md:w-[46%] ${isEven ? 'md:ml-0 md:mr-auto' : 'md:ml-auto md:mr-0'}`}>
+                      <div
+                        className="bg-white dark:bg-[#1e293b] rounded-2xl p-6 border border-[#e5e7eb] dark:border-[#334155] card-hover"
+                        style={{ borderLeftColor: color, borderLeftWidth: '3px' }}
+                      >
+                        {/* Year badge + education tag */}
+                        <div className="flex flex-wrap items-center gap-2 mb-3">
+                          <span className="text-xs font-bold px-2.5 py-1 rounded-full text-white" style={{ backgroundColor: color }}>
+                            {item.year}
+                          </span>
+                          {item.type === 'education' && (
+                            <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-[#d4af37]/15 text-[#d4af37]">
+                              Education
+                            </span>
+                          )}
+                        </div>
+
+                        {/* Role */}
+                        <h3 className="font-heading font-bold text-lg text-[#1f2937] dark:text-[#f8fafc] mb-1 leading-snug">
+                          {item.title}
+                        </h3>
+
+                        {/* Company */}
+                        <p className="text-sm font-semibold mb-1" style={{ color }}>
+                          {item.company}
+                        </p>
+
+                        {/* Location */}
+                        <p className="text-xs text-[#6b7280] dark:text-[#94a3b8] mb-4 flex items-center gap-1.5">
+                          <svg className="w-3 h-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                          </svg>
+                          {item.location}
+                        </p>
+
+                        {/* Description */}
+                        <p className="text-sm text-[#6b7280] dark:text-[#94a3b8] leading-relaxed mb-4">
+                          {item.description}
+                        </p>
+
+                        {/* Highlights */}
+                        <ul className="space-y-1.5">
+                          {item.highlights.slice(0, 3).map((h, hi) => (
+                            <li key={hi} className="flex items-start gap-2 text-xs text-[#6b7280] dark:text-[#94a3b8]">
+                              <span className="w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0" style={{ backgroundColor: color }} aria-hidden="true" />
+                              {h}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications */}
+      <section className="py-16 md:py-20 bg-[#f9fafb] dark:bg-[#1e293b]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 animate-on-scroll">
+            <h2 className="font-heading text-2xl md:text-3xl font-bold text-[#1f2937] dark:text-[#f8fafc] mb-3">
+              Certifications &amp; Credentials
+            </h2>
+            <div className="w-16 h-1 bg-gradient-to-r from-[#0ea5a0] to-[#d4af37] rounded-full mx-auto mt-4" />
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+            {certifications.map((cert, i) => {
+              const certColors = ['#1a2b4a', '#0ea5a0', '#054ADA', '#6B2286', '#d4af37'];
+              const color = certColors[i % certColors.length];
+              return (
+                <div
+                  key={cert.id}
+                  className={`animate-on-scroll delay-${Math.min((i + 1) * 100, 400)} group relative bg-white dark:bg-[#1e293b] rounded-2xl p-6 border border-[#e5e7eb] dark:border-[#334155] card-hover overflow-hidden text-center`}
+                >
+                  {/* Background gradient accent */}
+                  <div className="absolute top-0 left-0 right-0 h-1 rounded-t-2xl" style={{ background: `linear-gradient(90deg, ${color}, ${color}88)` }} aria-hidden="true" />
+
+                  {/* Badge circle */}
+                  <div
+                    className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-sm"
+                    style={{ backgroundColor: `${color}18` }}
+                  >
+                    <span className="font-heading font-extrabold text-sm tracking-wide" style={{ color }}>
+                      {cert.badge}
+                    </span>
+                  </div>
+
+                  {/* Name */}
+                  <h3 className="font-heading font-semibold text-sm text-[#1f2937] dark:text-[#f8fafc] mb-2 leading-snug">
+                    {cert.name}
+                  </h3>
+
+                  {/* Issuer + year */}
+                  <p className="text-xs text-[#6b7280] dark:text-[#94a3b8] mb-1">{cert.issuer}</p>
+                  <span
+                    className="inline-block text-xs font-bold px-2.5 py-0.5 rounded-full"
+                    style={{ backgroundColor: `${color}18`, color }}
+                  >
+                    {cert.year}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
       {/* Values */}
       <section className="py-20 md:py-24 bg-[#f9fafb] dark:bg-[#0f172a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -204,9 +360,9 @@ export default function AboutPage() {
             My mission
           </h2>
           <blockquote className="text-xl md:text-2xl text-[#6b7280] dark:text-[#94a3b8] italic leading-relaxed border-l-4 border-[#0ea5a0] dark:border-[#14b8a6] pl-6 text-left">
-            "To be the person who connects the dots between technology, product strategy and measurable
+            &ldquo;To be the person who connects the dots between technology, product strategy and measurable
             business outcomes. Complex platforms should not fail because of communication gaps — and
-            they do not have to, if someone in the room speaks both languages fluently."
+            they do not have to, if someone in the room speaks both languages fluently.&rdquo;
           </blockquote>
           <p className="mt-6 font-semibold text-[#1f2937] dark:text-[#f8fafc] text-lg">
             — Ashwini Borle
