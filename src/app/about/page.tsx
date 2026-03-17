@@ -199,12 +199,12 @@ export default function AboutPage() {
                   'Bapurao Deshmukh College of Engineering': '#d4af37',
                 };
                 const companyLogos: Record<string, string> = {
-                  'Deutsche Bank': '/logos/deutsche-bank.svg',
-                  'Credit Suisse': '/logos/credit-suisse.svg',
-                  'Nokia': '/logos/nokia.svg',
-                  'Vodafone': '/logos/vodafone.svg',
-                  'Cognizant': '/logos/cognizant.svg',
-                  'IBM India': '/logos/ibm.svg',
+                  'Deutsche Bank': '/logos/detuschebank.png',
+                  'Credit Suisse': '/logos/creditsuisse.png',
+                  'Nokia': '/logos/nokia.png',
+                  'Vodafone': '/logos/vodafone.png',
+                  'Cognizant': '/logos/cognizant.png',
+                  'IBM India': '/logos/ibm.png',
                 };
                 const color = companyColors[item.company] ?? '#0ea5a0';
                 const logoSrc = companyLogos[item.company];
@@ -244,8 +244,8 @@ export default function AboutPage() {
                           </h3>
                           {logoSrc && (
                             <div
-                              className="flex-shrink-0 w-12 h-10 rounded-lg overflow-hidden p-1 flex items-center justify-center"
-                              style={{ backgroundColor: `${color}15`, border: `1px solid ${color}25` }}
+                              className="flex-shrink-0 w-14 h-10 rounded-lg overflow-hidden p-1.5 flex items-center justify-center bg-white dark:bg-[#f8fafc]"
+                              style={{ border: `1px solid ${color}25` }}
                               aria-hidden="true"
                             >
                               <img

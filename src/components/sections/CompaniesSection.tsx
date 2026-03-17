@@ -7,7 +7,7 @@ const companies = [
     bg: '#EEF0FF',
     darkBg: '#070B2E',
     abbr: 'DB',
-    logo: '/logos/deutsche-bank.svg',
+    logo: '/logos/detuschebank.png',
   },
   {
     name: 'Credit Suisse',
@@ -17,7 +17,7 @@ const companies = [
     bg: '#E6EEF5',
     darkBg: '#001020',
     abbr: 'CS',
-    logo: '/logos/credit-suisse.svg',
+    logo: '/logos/creditsuisse.png',
   },
   {
     name: 'Nokia',
@@ -27,7 +27,7 @@ const companies = [
     bg: '#EBF0FA',
     darkBg: '#07132C',
     abbr: 'NK',
-    logo: '/logos/nokia.svg',
+    logo: '/logos/nokia.png',
   },
   {
     name: 'Vodafone',
@@ -37,7 +37,7 @@ const companies = [
     bg: '#FFF0F0',
     darkBg: '#2D1010',
     abbr: 'VF',
-    logo: '/logos/vodafone.svg',
+    logo: '/logos/vodafone.png',
   },
   {
     name: 'Cognizant',
@@ -47,7 +47,7 @@ const companies = [
     bg: '#EEEEFF',
     darkBg: '#0A0A20',
     abbr: 'CG',
-    logo: '/logos/cognizant.svg',
+    logo: '/logos/cognizant.png',
   },
   {
     name: 'IBM India',
@@ -57,7 +57,7 @@ const companies = [
     bg: '#EBF4FF',
     darkBg: '#0A1F35',
     abbr: 'IBM',
-    logo: '/logos/ibm.svg',
+    logo: '/logos/ibm.png',
   },
 ];
 
@@ -103,11 +103,8 @@ export default function CompaniesSection() {
             >
               {/* Logo */}
               <div
-                className="w-16 h-16 rounded-2xl flex items-center justify-center mb-4 shadow-sm transition-transform duration-300 group-hover:scale-110 overflow-hidden p-1"
-                style={{
-                  backgroundColor: company.bg,
-                  border: `2px solid ${company.color}25`,
-                }}
+                className="w-20 h-14 rounded-xl flex items-center justify-center mb-4 shadow-sm transition-transform duration-300 group-hover:scale-110 overflow-hidden p-2 bg-white dark:bg-[#f8fafc]"
+                style={{ border: `1.5px solid ${company.color}20` }}
                 aria-hidden="true"
               >
                 <img

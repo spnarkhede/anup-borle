@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
-  <circle cx="40" cy="40" r="40" fill="#E60000"/>
-  <!-- Speech mark / quotation shape -->
-  <path d="M26 22 C18 22 12 28 12 36 C12 42 16 47 22 49 L18 58 L32 50 C35 51 38 52 40 52 C48 52 54 46 54 38 L54 36 C54 28 48 22 40 22 Z" fill="white" opacity="0.15"/>
-  <text x="40" y="52" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="38">V</text>
-</svg>
