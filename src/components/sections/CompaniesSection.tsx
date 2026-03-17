@@ -1,3 +1,5 @@
+'use client';
+
 const companies = [
   {
     name: 'Deutsche Bank',
