@@ -7,6 +7,7 @@ const companies = [
     bg: '#EEF0FF',
     darkBg: '#070B2E',
     abbr: 'DB',
+    logo: '/logos/deutsche-bank.svg',
   },
   {
     name: 'Credit Suisse',
@@ -16,6 +17,7 @@ const companies = [
     bg: '#E6EEF5',
     darkBg: '#001020',
     abbr: 'CS',
+    logo: '/logos/credit-suisse.svg',
   },
   {
     name: 'Nokia',
@@ -25,6 +27,7 @@ const companies = [
     bg: '#EBF0FA',
     darkBg: '#07132C',
     abbr: 'NK',
+    logo: '/logos/nokia.svg',
   },
   {
     name: 'Vodafone',
@@ -34,6 +37,7 @@ const companies = [
     bg: '#FFF0F0',
     darkBg: '#2D1010',
     abbr: 'VF',
+    logo: '/logos/vodafone.svg',
   },
   {
     name: 'Cognizant',
@@ -43,6 +47,7 @@ const companies = [
     bg: '#EEEEFF',
     darkBg: '#0A0A20',
     abbr: 'CG',
+    logo: '/logos/cognizant.svg',
   },
   {
     name: 'IBM India',
@@ -52,6 +57,7 @@ const companies = [
     bg: '#EBF4FF',
     darkBg: '#0A1F35',
     abbr: 'IBM',
+    logo: '/logos/ibm.svg',
   },
 ];
 
@@ -95,17 +101,28 @@ export default function CompaniesSection() {
                 borderColor: `${company.color}30`,
               }}
             >
-              {/* Monogram badge */}
+              {/* Logo */}
               <div
-                className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shadow-sm transition-transform duration-300 group-hover:scale-110"
+                className="w-16 h-16 rounded-2xl flex items-center justify-center mb-4 shadow-sm transition-transform duration-300 group-hover:scale-110 overflow-hidden p-1"
                 style={{
                   backgroundColor: company.bg,
                   border: `2px solid ${company.color}25`,
                 }}
                 aria-hidden="true"
               >
+                <img
+                  src={company.logo}
+                  alt={`${company.name} logo`}
+                  className="w-full h-full object-contain"
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.style.display = 'none';
+                    const fallback = target.nextElementSibling as HTMLElement | null;
+                    if (fallback) fallback.style.display = 'flex';
+                  }}
+                />
                 <span
-                  className="font-heading font-bold text-sm tracking-wide"
+                  className="font-heading font-bold text-sm tracking-wide hidden w-full h-full items-center justify-center"
                   style={{ color: company.color }}
                 >
                   {company.abbr}

@@ -198,7 +198,16 @@ export default function AboutPage() {
                   'IBM India': '#054ADA',
                   'Bapurao Deshmukh College of Engineering': '#d4af37',
                 };
+                const companyLogos: Record<string, string> = {
+                  'Deutsche Bank': '/logos/deutsche-bank.svg',
+                  'Credit Suisse': '/logos/credit-suisse.svg',
+                  'Nokia': '/logos/nokia.svg',
+                  'Vodafone': '/logos/vodafone.svg',
+                  'Cognizant': '/logos/cognizant.svg',
+                  'IBM India': '/logos/ibm.svg',
+                };
                 const color = companyColors[item.company] ?? '#0ea5a0';
+                const logoSrc = companyLogos[item.company];
                 const isEven = i % 2 === 0;
 
                 return (
@@ -228,10 +237,25 @@ export default function AboutPage() {
                           )}
                         </div>
 
-                        {/* Role */}
-                        <h3 className="font-heading font-bold text-lg text-[#1f2937] dark:text-[#f8fafc] mb-1 leading-snug">
-                          {item.title}
-                        </h3>
+                        {/* Role + Company Logo */}
+                        <div className="flex items-start justify-between gap-3 mb-1">
+                          <h3 className="font-heading font-bold text-lg text-[#1f2937] dark:text-[#f8fafc] leading-snug">
+                            {item.title}
+                          </h3>
+                          {logoSrc && (
+                            <div
+                              className="flex-shrink-0 w-12 h-10 rounded-lg overflow-hidden p-1 flex items-center justify-center"
+                              style={{ backgroundColor: `${color}15`, border: `1px solid ${color}25` }}
+                              aria-hidden="true"
+                            >
+                              <img
+                                src={logoSrc}
+                                alt={`${item.company} logo`}
+                                className="w-full h-full object-contain"
+                              />
+                            </div>
+                          )}
+                        </div>
 
                         {/* Company */}
                         <p className="text-sm font-semibold mb-1" style={{ color }}>
